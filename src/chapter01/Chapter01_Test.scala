@@ -3,6 +3,9 @@ package chapter01
 /**
   * 示例代码
   * 继承App，调用方法是就可以省去main方法
+  * var 和 val 关键字只标识引用本身是否可以指向另一个不同的对象，它们并
+  * 未表明其所引用的对象是否可变
+  * 为了减少可变性引起的 bug，应该尽可能地使用不可变变量
   */
 object Chapter01_Test extends App {
 
